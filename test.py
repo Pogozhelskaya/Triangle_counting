@@ -97,6 +97,8 @@ def test_graph(file_path):
 
     res = sp.run(f'./main {file_path} > {results_path}', shell=True)
 
+    print(res)
+
     return results_path
 
 
