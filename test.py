@@ -89,7 +89,7 @@ def get_time(file_path):
             if re.fullmatch(f'({method} used time \(in seconds\): )(.*)(\n)', line) is not None:
                 result[method] = re.sub(
                     f'({method} used time \(in seconds\): )(.*)(\n)', '\g<2>', line)
-    print(time)
+    print(result)
     return result
 
 
