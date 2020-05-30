@@ -3,9 +3,9 @@ GRAPHBLAS=deps/GraphBLAS/build/libgraphblas.a
 SOURCEDIR=$(shell pwd -P)
 CC_SOURCES = $(wildcard $(SOURCEDIR)/*.c)
 CC_SOURCES += $(wildcard $(SOURCEDIR)/timer/*.c)
+CC_SOURCES += $(wildcard $(SOURCEDIR)/mytricount/*.c)
 
 run: all
-	./main
 
 all: $(GRAPHBLAS) $(CC_SOURCES)
 	gcc -o main ${CC_SOURCES} -fopenmp $(GRAPHBLAS) -lm
