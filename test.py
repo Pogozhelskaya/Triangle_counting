@@ -89,6 +89,7 @@ def get_time(file_path):
             if re.fullmatch(f'({method} used time \(in seconds\): )(.*)(\n)', line) is not None:
                 result[method] = re.sub(
                     f'({method} used time \(in seconds\): )(.*)(\n)', '\g<2>', line)
+    print(time)
     return result
 
 
@@ -145,5 +146,5 @@ def test_all_stanford_graphs(n=-1):
 
 if __name__ == '__main__':
     init()
-    test_all_fullgraphs()
+    test_all_fullgraphs(1000)
     test_all_stanford_graphs()
