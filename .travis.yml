@@ -1,3 +1,2 @@
-language: c
-sudo: false # only for faster builds
-script: bash make.sh
+language: bash
+script: make
