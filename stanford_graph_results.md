@@ -1,5 +1,5 @@
-| Name | Naive time | Naive time (s) |  Burkhardt time (s) |  Cohen time (s) |  Sandia time (s) |  Sandia2 time (s) |  SandiaDot time (s) |  SandiaDot2 time (s) | 
-|:----:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+| Name | Naive time (s) |  Burkhardt time (s) |  Cohen time (s) |  Sandia time (s) |  Sandia2 time (s) |  SandiaDot time (s) |  SandiaDot2 time (s) | 
+|:----:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 | loc-brightkite_edges.txt | 5.880081 | 0.050327 | 0.030037 | 0.018502 | 0.018077 | 0.016040 | 0.015482 |
 | amazon0302.txt | 2.220444 | 0.111412 | 0.062666 | 0.034452 | 0.039493 | 0.035465 | 0.036772 |
 | roadNet-PA.txt | 0.351586 | 0.044917 | 0.075285 | 0.053414 | 0.054125 | 0.032269 | 0.031431 |
