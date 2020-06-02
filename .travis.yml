@@ -1,2 +1,3 @@
 language: bash
-script: cd /deps/GraphBLAS && make
+before_script: cd /deps/GraphBLAS
+script: make
