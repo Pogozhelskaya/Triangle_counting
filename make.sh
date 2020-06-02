@@ -1,3 +1,3 @@
 #!bin/bash
-cd deps/GraphBLAS/build
+cd ./deps/GraphBLAS/build
 make
