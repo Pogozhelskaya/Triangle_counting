@@ -1,3 +1,5 @@
+#pragma once
+
 #include "../deps/GraphBLAS/Demo/Include/demos.h"
 
 GrB_Info mytricount           // count # of triangles
