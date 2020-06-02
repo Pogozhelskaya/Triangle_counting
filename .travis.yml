@@ -1,2 +1,2 @@
 language: bash
-script: make
+script: cd /deps/GraphBLAS/ && make
