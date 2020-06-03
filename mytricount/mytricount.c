@@ -117,7 +117,7 @@ GrB_Info mytricount           // count # of triangles
             OK (GrB_Monoid_new_UINT32 (&m, GrB_PLUS_UINT32, 0)) ;
             GrB_Semiring s;
             OK (GrB_Semiring_new(&s, m, GrB_TIMES_UINT32)) ;
-            OK (GxB_set (d, GxB_AxB_METHOD, GxB_AxB_GUSTAVSON)) ;
+            OK (GxB_set (d, GxB_AxB_METHOD, GxB_AxB_DOT)) ;
             OK (GrB_mxm(C, GrB_NULL, GrB_NULL, s, C, A, d)) ;
             OK (GrB_mxm(C, GrB_NULL, GrB_NULL, s, C, A, d)) ;
             t [0] = simple_toc (tic);
